@@ -6,6 +6,8 @@ DeepSeek Harness 的**参考图一键填充**插件。
 
 这是原油猴脚本 `dsh-ref-autofill.user.js` 的 DSH 插件版：UI、数据层和 DSH 站点适配逻辑原样保留，只是去掉油猴运行时依赖，改由 `dsh plugin` 安装、由 DSH 客户端加载。
 
+![在 DeepSeek Harness 里挑选参考图并一键填充](docs/screenshot.png)
+
 ## 功能
 
 - **三个参考库**：脸（1499 项）/ 服装（3224 项）/ 姿势（153 项，安全模式开启时的数量）
