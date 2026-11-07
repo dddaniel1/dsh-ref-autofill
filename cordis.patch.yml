@@ -1,0 +1,5 @@
+# dsh-ref-autofill：参考图一键填充（DSH 插件）
+# Host 半边是空插件；真正的界面在浏览器半边，由 package.json 的 dsh.client 声明加载。
+- insert:
+    - id: ref-autofill
+      name: 'dsh-ref-autofill'

@@ -1,0 +1,50 @@
+{
+  "name": "dsh-ref-autofill",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness 插件：在 dsh web 里浏览中文 AI 参考图库（脸 / 服装 / 姿势），选中后把高清参考图与提示词一键填入对话框。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.1-rc.5 <0.3.0"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "reference-image",
+    "ai-pose-gallery"
+  ],
+  "license": "MIT",
+  "author": "dddaniel1",
+  "homepage": "https://github.com/dddaniel1/dsh-ref-autofill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dddaniel1/dsh-ref-autofill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dddaniel1/dsh-ref-autofill/issues"
+  },
+  "files": [
+    "lib",
+    "test",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ]
+}
